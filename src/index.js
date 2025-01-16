@@ -21,6 +21,9 @@ window.loadChart = function(json) {
 			width: 960
 		
 		},
+		tooltip: {
+			show: false
+		},
 		data: {
 			onclick: function (d) {
 				// console.log("data", d);
@@ -42,7 +45,7 @@ window.loadChart = function(json) {
 			keys: {
 				x: 'month',
 				value: ['Apples', 'Peaches', 'Pears']
-			}
+			},
 			
 		},
 
